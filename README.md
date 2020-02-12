@@ -10,7 +10,7 @@ A WIP to convert Adobe After Effects keyframe easings to bezier curves. The work
 
 ## Installation
 
-To install this extension in development mode, open a command line termian and run `source ./install-dev.sh` (on Mac only). You can also manually copy the entire directory structure (or an alias/symlink) to your Adobe extensions folder.
+To install this extension in development mode, open a command line terminal and run `source ./install-dev.sh` (on Mac only). You can also manually copy the entire directory structure (or an alias/symlink) to your Adobe extensions folder.
 
 ## Usage
 
