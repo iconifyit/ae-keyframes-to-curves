@@ -1,0 +1,91 @@
+<!--
+/**
+ * @author Scott Lewis <scott@atomiclotus.net>
+ * @copyright 2018 Scott Lewis
+ * @version 1.0.0
+ * @url http://github.com/iconifyit
+ * @url https://atomiclotus.net
+ *
+ * ABOUT:
+ *
+ *    This script is a very basic boilerplate for Adobe CEP extensions.
+ *
+ * NO WARRANTIES:
+ *
+ *   You are free to use, modify, and distribute this script as you see fit.
+ *   No credit is required but would be greatly appreciated.
+ *
+ *   THIS SCRIPT IS OFFERED AS-IS WITHOUT ANY WARRANTY OR GUARANTEES OF ANY KIND.
+ *   YOU USE THIS SCRIPT COMPLETELY AT YOUR OWN RISK AND UNDER NO CIRCUMSTANCES WILL
+ *   THE DEVELOPER AND/OR DISTRIBUTOR OF THIS SCRIPT BE HELD LIABLE FOR DAMAGES OF
+ *   ANY KIND INCLUDING LOSS OF DATA OR DAMAGE TO HARDWARE OR SOFTWARE. IF YOU DO
+ *   NOT AGREE TO THESE TERMS, DO NOT USE THIS SCRIPT.
+ */
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CEP Boilerplate | Atomic Lotus</title>
+        <!-- Topcoat -->
+        <link rel="stylesheet" type="text/css" href="theme/font/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/topcoat-desktop-dark.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/main.css">
+        <link rel="stylesheet" type="text/css" href="theme/css/brackets.css">
+        <!-- /Topcoat -->
+        <link rel="stylesheet" href="theme/style.css">
+        <!--
+        <script>
+            console.log('test', typeof cep_node);
+            console.log('test', typeof require);
+        </script>
+        -->
+    </head>
+    <body style="height: 250px; width: 350px; min-height: 250px; min-width: 350px;" onresize="return false;">
+        <div id="wrapper" style="height: 100vh; width: 100vw;">
+            <section class="messages">
+                <div id="message" class="info"></div>
+            </section>
+            <section class="content">
+
+            </section>
+            <section class="buttons">
+                <button id="info-button" class="topcoat-button--large--cta" disabled>Get Info</button>
+                <!--
+                <button id="open-button" class="topcoat-button--large--cta" disabled>Open</button>
+                <button id="save-button" class="topcoat-button--large">Save</button>
+                -->
+            </section>
+        </div>
+        <!--scripts-->
+        <script>if (typeof module  === 'object') { window.module = module; module = undefined;    }</script>
+        <script>if (typeof exports === 'object') { window.exports = exports; exports = undefined; }</script>
+
+        <script src="lib/CSInterface/CSInterface.js"></script>
+        <script src="lib/jQuery/jquery.3.3.1.min.js"></script>
+        <script src="lib/FlyoutMenu/FlyoutMenu.js"></script>
+        <script src="../host/core/Helpers.js"></script>
+        <script src="../host/core/functions.js"></script>
+        <script src="../host/HostResponse.js"></script>
+        <script src="Client.js"></script>
+
+        <script>
+            // const func = {
+            //     foo : new String(''),
+            //     bar : new Number(1)
+            // };
+            //
+            // require(__dirname + '/host/polyfills');
+            //
+            // console.log('Object.update', Object.keys);
+            //
+            // const csInterface = require(__dirname + '/client/lib/CSInterface');
+            // const jQuery      = require(__dirname + '/client/lib/jQuery');
+            // const FlyoutMenu  = require(__dirname + '/client/lib/FlyoutMenu');
+            // const Client      = require(__dirname + '/client/Client');
+        </script>
+
+        <script>if (window.module)  module  = window.module;</script>
+        <script>if (window.exports) exports = window.exports;</script>
+    </body>
+</html>
